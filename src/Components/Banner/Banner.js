@@ -7,31 +7,24 @@ import { API_KEY, imageUrl } from "../../constants/constants";
 
 function Banner() {
   const [movie, setMovie] = useState();
-  useEffect(() => {
-    let min = 0;
-    let max = 20;
-    function randomNumber() {
-      return Math.floor(Math.random() * (max - min)) + min;
-      
-    }
-    Axios.get(`trending/all/day?api_key=${API_KEY}`).then((response) => {
-      setMovie(response.data.results[randomNumber()]);
-    });
+  useEffect(() => 
+  {
+  
   }, []);
   return (
     <div
       className="banner"
       style={{
-        backgroundImage: `url(${movie ? imageUrl + movie.backdrop_path : ""})`,
+        backgroundImage: `https://static.hidive.com/slides/2021/10.%20October/HD_Carousel_Fall21Simul_Neon.gif`,
       }}
     >
       <div className="content">
-        <h1 className="title">{movie ? movie.title || movie.name : ""} </h1>
+        
         <div className="banner_buttons">
           <button className="button">Play Now</button>
           <button className="button">My Watchlist</button>
         </div>
-        <h1 className="description">{movie ? movie.overview : ""} </h1>{" "}
+        
       </div>
       <div className="fade_bottom"></div>
     </div>
