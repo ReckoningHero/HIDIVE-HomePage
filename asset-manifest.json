@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/HIDIVE-HomePage/static/css/main.e7279ec6.chunk.css",
+    "main.js": "/HIDIVE-HomePage/static/js/main.91f07dab.chunk.js",
+    "main.js.map": "/HIDIVE-HomePage/static/js/main.91f07dab.chunk.js.map",
+    "runtime-main.js": "/HIDIVE-HomePage/static/js/runtime-main.38ac3431.js",
+    "runtime-main.js.map": "/HIDIVE-HomePage/static/js/runtime-main.38ac3431.js.map",
+    "static/js/2.782646d5.chunk.js": "/HIDIVE-HomePage/static/js/2.782646d5.chunk.js",
+    "static/js/2.782646d5.chunk.js.map": "/HIDIVE-HomePage/static/js/2.782646d5.chunk.js.map",
+    "index.html": "/HIDIVE-HomePage/index.html",
+    "precache-manifest.c769514e2e679ddfdaee4d89131bac23.js": "/HIDIVE-HomePage/precache-manifest.c769514e2e679ddfdaee4d89131bac23.js",
+    "service-worker.js": "/HIDIVE-HomePage/service-worker.js",
+    "static/css/main.e7279ec6.chunk.css.map": "/HIDIVE-HomePage/static/css/main.e7279ec6.chunk.css.map",
+    "static/js/2.782646d5.chunk.js.LICENSE.txt": "/HIDIVE-HomePage/static/js/2.782646d5.chunk.js.LICENSE.txt",
+    "static/media/red-x.svg": "/HIDIVE-HomePage/static/media/red-x.85597ea9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.38ac3431.js",
+    "static/js/2.782646d5.chunk.js",
+    "static/css/main.e7279ec6.chunk.css",
+    "static/js/main.91f07dab.chunk.js"
+  ]
+}
