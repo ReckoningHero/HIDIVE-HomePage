@@ -12,3 +12,4 @@
 
 
 ## About this site
+https://reckoninghero.github.io/HIDIVE-HomePage/
